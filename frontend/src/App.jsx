@@ -4,15 +4,15 @@
 // import Componen from "./konsepDasar/componen"
 // import Props from "./konsepDasar/Props"
 // import State from "./konsepDasar/State"
-import Hooks from "./methods/Hooks"
-import Lifecycle from "./methods/LifeCycle"
+// import Hooks from "./methods/Hooks"
+// import Lifecycle from "./methods/LifeCycle"
 import Context from "./methods/Context"
 const App = () => {
 	return (
 		<div>
 			<Context />
-			<Lifecycle />
-			<Hooks />
+			{/* <Lifecycle />
+			<Hooks /> */}
 			{/* <State />
 			<Props />
 			<Componen />
