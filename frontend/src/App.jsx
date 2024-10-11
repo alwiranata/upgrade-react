@@ -7,9 +7,13 @@
 // import Hooks from "./methods/Hooks"
 // import Lifecycle from "./methods/LifeCycle"
 import Context from "./methods/Context"
+import Routing from "./methods/Routing"
+import Form from "./methods/Form"
 const App = () => {
 	return (
 		<div>
+			<Form />
+			<Routing />
 			<Context />
 			{/* <Lifecycle />
 			<Hooks /> */}
