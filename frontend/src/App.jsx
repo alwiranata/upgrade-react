@@ -6,15 +6,17 @@
 // import State from "./konsepDasar/State"
 // import Hooks from "./methods/Hooks"
 // import Lifecycle from "./methods/LifeCycle"
-import Context from "./methods/Context"
-import Routing from "./methods/Routing"
-import Form from "./methods/Form"
+// import Context from "./methods/Context"
+// import Routing from "./methods/Routing"
+// import Form from "./methods/Form"
+import Page from "./routes/Page"
 const App = () => {
 	return (
 		<div>
-			<Form />
+			<Page />
+			{/* <Form />
 			<Routing />
-			<Context />
+			<Context /> */}
 			{/* <Lifecycle />
 			<Hooks /> */}
 			{/* <State />
