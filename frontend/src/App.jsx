@@ -9,11 +9,16 @@
 // import Context from "./methods/Context"
 // import Routing from "./methods/Routing"
 // import Form from "./methods/Form"
-import Page from "./routes/Page"
+// import Page from "./routes/Page"
+// import Local from "./state/Local"
+import Parrent from "./state/Parrent"
+import Api from "./state/Api"
 const App = () => {
 	return (
 		<div>
-			<Page />
+			<Parrent />
+			<Api />
+			{/* <Page /> */}
 			{/* <Form />
 			<Routing />
 			<Context /> */}
